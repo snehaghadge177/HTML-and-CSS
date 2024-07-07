@@ -1,0 +1,79 @@
+
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    background-color: rgb(243, 243, 176);
+    margin-bottom: 2%;
+}
+.middle {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    background-color: rgb(243, 243, 176);
+    margin-bottom: 2%;
+}
+.right {
+    float: right;
+    width: 30%;
+    background-color: rgb(243, 243, 176);
+    margin-bottom: 2%;
+}
+.border {
+    border: thin solid black;
+}
+p {
+    font-family: arial;
+    margin: 3%;
+}
+br.clear {
+    clear: both;
+}
+div.pic1 {
+    width: 20%;
+    float:inline-start;
+    margin: 3%;
+}
+div.pic2 {
+    width: 20%;
+    float: left;
+    margin: 3%;
+}
+div.pic3 {
+    width: 20%;
+    float: left;
+    margin: 3%;
+}
+div.pic4 {
+    width: 20%;
+    float: right;
+}
+#pic1 {
+    width: 100%;
+    margin-bottom: -2%;
+    border-radius: 15% ;
+}
+#pic2 {
+    width: 100%;
+    margin-bottom: -2%;
+    border-radius: 15% ;
+}
+#pic3 {
+    width: 100%;
+    margin-bottom: -2%;
+    border-radius: 15% ;
+}
+#pic4 {
+    width: 100%;
+    margin-bottom: -2%;
+    border-radius: 15% ;
+}
+div.picborder {
+    border: thin solid red;
+    border-radius: 15%;
+}
