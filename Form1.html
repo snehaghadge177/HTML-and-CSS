@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms!</title>
+        <meta charset="UTF-8">
+        <style>
+            p {
+                font-size: 40px;
+                
+            }
+           
+            div {
+                background-color: rgb(119, 139, 139);
+                text-align: center;
+                width: 50%;
+                
+
+            }
+            input {
+                background-color: white;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <p><b>Student Registration Form</b></p>
+        <br>
+        <form action="G:\Training\HTML CSS\Exercises\formsact1.html" target="_self" autocomplete="off" method="post">
+            <label for="Firstname">First Name:</label>
+            <input type="text" name="firstname" size="40">
+            <br>
+            <br>
+            <label for="Middlename">Middle Name:</label>
+            <input type="text" name="middlename" size="40">
+            <br>
+            <br>
+            <label for="Lastname">Last Name:</label>
+            <input type="text" name="lastname" size="40">
+            <br>
+            <br>
+            <br>
+            <label for="coursename">Course Name:</label>
+            <select name="course" id="course">
+                <option value="BE CSE">BE CSE</option>
+                <option value="BE IT">BE IT</option>
+                <option value="BE ENTC">BE ENTC</option>
+            </select>
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="Male" style="cursor:pointer ;">
+            <br>
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female" style="cursor:pointer ;">
+            <br>
+            <label for="Other">Other</label>
+            <input type="radio" name="gender" id="Other" style="cursor:pointer ;">
+            <br><br>
+
+            <label for="Phone">Phone:</label>
+            <input type="text" name="phone" size="10">
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="text" id="email" name="email" size="40">
+            <br><br>
+            
+            <input type="submit" value="Submit" style="background-color: rgb(59, 188, 59); padding: 10px 20px 10px 20px;">
+            <br><br>
+        </form>
+    </div>
+        
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout using flex</title>
+        <style>
+            header {
+                font-size: 60px;
+                font-family: Gill Sans MT;
+                font-weight: 400;
+            }
+            .sec1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                text-align: center;
+            }
+            .sec2 {
+               background-color: rgb(213, 190, 161);
+                text-align: center;
+            }
+            .border {
+                border: 3px solid brown;
+                border-radius: 40px;
+                padding: 30px;
+
+
+           }
+           .sec2 {
+            margin-bottom: 15px;
+           }
+            article {
+                float: right;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Mock Template</h2>
+        </header>
+        <section class="sec1">
+            <div style="background-color: rgb(50, 3, 97); color: white;padding: 10px 20px 10px 20px ;width: 100px;margin-right: 3px;">Home</div>
+            <div style="background-color: rgb(50, 3, 97); color: white;padding: 10px 20px 10px 20px ;width: 100px;margin-right: 3px;">Products</div>
+            <div style="background-color: rgb(50, 3, 97); color: white;padding: 10px 20px 10px 20px ;width: 100px;margin-right: 3px;">My Story</div>
+            <div style="background-color: rgb(50, 3, 97); color: white;padding: 10px 20px 10px 20px ;width: 100px;margin-right: 3px;">Contact me</div>
+        </section>
+
+        <section class="sec2">
+            <img src="Images1\beauty products.jpg" alt="Products" style="width: 60%;height:60%;">
+        </section>
+    <div class="border">
+        <section class="sec3">
+            <h2 style="font-size: 50px;">Design Overview</h2>
+            
+            <p style="font-size: 20px;">The GH Beauty Lab’s gold-standard moisturizer, Good Housekeeping Seal star Olay Regenerist Micro-Sculpting Cream delivers great value and near-record levels of hydration with a mix of hyaluronic acid, niacinamide and peptides.</p>
+            
+            <article><img src="Images1\Beauty.png" alt="Product" style="height: 350px;width:350px;"></article>
+        </section>
+        <section>
+            <p style="font-size: 20px;">Deep-clean your complexion with SkinCeuticals' foam face wash, which is infused with glycerin and cucumber extract. A winner of the GH Beauty Lab’s most recent face cleanser test, it earned near perfect points for effective cleansing, with 96% of users reporting that it deeply purified their skin. Yet it was able to cleanse without drying out skin: "Instead of feeling tight and dry, this facial wash left my skin feeling much more silky, nourished and smooth and rinsed off easily," a tester noted.</p>
+            <p style="font-size: 20px;">A GH Beauty Award winner, this Clinique classic lives up to its reputation, effectively hydrating skin for hours in GH Beauty Lab assessments, despite its lightweight feel. Calculations with the Lab’s Corneometer device, which measures skin hydration levels, showed that it increased moisture by an impressive 43% over six hours after application. Dramatic, indeed!</p>
+            <div style="border:2px solid rgb(203, 195, 211) ; border-radius: 50px ;padding: 20px;background-color: rgb(203, 195, 211);width: 30%;">
+                <b><i>Why we love it:</i></b>
+                <ul>
+                    <li>Lightweight, non-greasy hydration</li>
+                    <li>Increases radiance</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+        
+    </body>
+</html>

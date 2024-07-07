@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buttons!</title>
+        <link rel="stylesheet" href="buttons.css">
+        <script>
+
+        </script>
+           
+        
+    </head>
+    <body>
+        <div>
+        <button type="button" class="container">Plain Button</button>
+        </div>
+
+        <div class="container">
+        <button type="button" onclick="alert('You clicked button1!')" class="button"><b>Button1<b></button>
+
+        <button type="button" class="button" id="toggle" onclick="myFuntn()"><b>Button2<b></button>
+
+        <button type="button" class="button" id="change" onclick="myFunction()"><b>Button3<b></button>
+        </div>
+        <script>
+            function myFunction() {
+              document.getElementById("change").style.backgroundColor = "red";
+              document.getElementById("change").style.cursor="not-allowed";
+              
+            }
+            function myFuntn() {
+                var element = document.getElementById("toggle");
+                element.classList.toggle("buttondis");
+                
+            }
+        </script>
+            
+        
+        <button type="button" class="button buttondis" disabled><b>Button4<b></button>
+        <button type="button" class="button buttondis" disabled><b>Button5<b></button>
+        
+
+    </body>
+</html>

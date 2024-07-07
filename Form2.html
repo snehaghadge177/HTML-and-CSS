@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 2</title>
+        <meta charset="UTF-8">
+        <style>
+           
+            div {
+                width: 35%;
+                height: 100%;
+                padding: 30px;
+                background-color: rgb(168, 134, 87);
+                color: rgb(10, 10, 10);
+                margin-left: 30%;
+                 
+               }
+            input {
+                background-color: white;
+
+            }
+            label {
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div>
+        <h2>Say about Yourself!</h2>
+        <form action="" method="post" target="_blank" autocomplete="off">
+            <label for="name">Name:</label> <!-- for and name should be same in label and input-->
+            <input type="text" name="name" id="name" size="50"><br><br>
+            <label for="education">Education:</label>
+            <input type="text" name="education" id="education" size="50"><br><br>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" size="50"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"><br><br>
+            <label for="gender">Gender:</label><br><br>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Male" value="Male"><br>
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female" value="Female"><br>
+            <label for="Others">Others</label>
+            <input type="radio" name="gender" id="Others" value="Others"><br>
+            <br><br>
+            <label for="fav_car">Select your favorite car: </label><br><br>
+            <input type="checkbox" name="fav_car" id="fav_car1" value="BMW">
+            <label for="fav_car1">BMW</label><br>
+            <input type="checkbox" name="fav_car" id="fav_car2" value="Hyundai">
+            <label for="fav_car2">Hyundai</label><br>
+            <input type="checkbox" name="fav_car" id="fav_car3" value="Mercedes">
+            <label for="fav_car3">Mercedes</label><br>
+            <br>
+            <label for="color">favorite Color:</label>
+            <input type="color" name="color" id="fav_color"><br><br>
+            <label for="birthDate">Date Of Birth:</label>
+             <input type="date" name="birthDate" id="DOB"><br><br>
+             <label for="email">Email:</label>
+             <input type="email" name="email" id="email"><br><br>
+             <label for="photo">Upload Your passport photo:</label><br><br>
+             <input type="file" name="photo" id="photo" value="Choose file"><br><br>
+
+             <input type="submit" value="Submit" style="padding: 10px 20px 10px 20px ;background-color: rgb(23, 168, 23); float: inline-end;">
+             <br><br>
+            
+
+
+        </form>
+
+    </div>
+
+        
+    </body>
+</html>
